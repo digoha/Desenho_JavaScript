@@ -10,6 +10,21 @@
 </head>
 <body>
     
+    <div class="container selection">
+        <h1 class="centralizado">Tela de Jogo Canvas</h1>
+        <canvas id="area" style="border: 1px solid black; border-radius: 5px;" width="500" height="500"></canvas>
+    </div>
+
+    <script>
+        //Base para a criação do desenho
+        function draw() {
+            const canvas = document.getElementById("area");
+            const ctx = canvas.getContext("2d");
+            //Codigo do desenho
+            
+        }
+        window.addEventListener("load", draw);
+    </script>
 
     <div>
         <a href="index.html">
