@@ -1,0 +1,18 @@
+body{
+    background-color: #989898;
+
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.seta.voltar{
+    
+    transform: rotateY(180deg);
+}
