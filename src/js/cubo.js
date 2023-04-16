@@ -3,7 +3,7 @@ function draw() {
     const ctx = canvas.getContext("2d");
     //Codigo do desenho
     ctx.lineWidth = 1;
-    ctx.fillStyle = "#00931b";
+    ctx.fillStyle = "green";
     /*ctx.beginPath();
     ctx.moveTo(175, 275);
     ctx.lineTo(175, 175);
@@ -17,8 +17,8 @@ function draw() {
     ctx.fillStyle = "yellow";
     ctx.beginPath();
     ctx.moveTo(175, 175);
-    ctx.lineTo(250-10, 125);
-    ctx.lineTo(350-10, 125);
+    ctx.lineTo(250-25, 125);
+    ctx.lineTo(350-25, 125);
     ctx.lineTo(275, 175);
     ctx.lineTo(175, 175);
     ctx.stroke();
@@ -27,8 +27,8 @@ function draw() {
     ctx.fillStyle = "blue";
     ctx.beginPath();
     ctx.moveTo(275, 175);
-    ctx.lineTo(350-10, 125);
-    ctx.lineTo(350-10, 225);
+    ctx.lineTo(350-25, 125);
+    ctx.lineTo(350-25, 225);
     ctx.lineTo(275, 275);
     ctx.lineTo(275, 175);
     ctx.stroke();
